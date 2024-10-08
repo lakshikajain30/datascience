@@ -1,0 +1,31 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d4035e0b-58a5-40e5-89e7-ae6b89c6c495",
+   "metadata": {},
+   "source": [
+    "Defining an \"adopted user\" as a user who has logged into the product on three separate days in at least one seven-day period , identify which factors predict future user adoption."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d5eed6b6-378c-4f23-afda-2225430911eb",
+   "metadata": {},
+   "source": [
+    "Using Random Forest, I can predict the adoption of users. To start, I loaded the takehome_users and takehome_user_engagement files. Labelled the users from the engagement data who have logged in at least 3 times in a 7 day period. These are the adopted users. Following to that, I merged the enagagement and users data. Used RandomForest to predict adoption and evaluated the models.Ended the project by displaying the importance of various features in predicting user adoption."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "",
+   "name": ""
+  },
+  "language_info": {
+   "name": ""
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
